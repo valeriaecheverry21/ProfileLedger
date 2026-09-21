@@ -1,0 +1,293 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ana García",
+      "email": "ana.garcia@email.com",
+      "pointsLevel": "Gold",
+      "accountRestrictions": {
+        "hasDebt": false,
+        "isBlocked": false,
+        "blockReason": null
+      }
+    },
+    {
+      "id": 2,
+      "name": "Carlos López",
+      "email": "carlos.lopez@email.com",
+      "pointsLevel": "Silver",
+      "accountRestrictions": {
+        "hasDebt": true,
+        "isBlocked": false,
+        "blockReason": null
+      }
+    },
+    {
+      "id": 3,
+      "name": "María Rodríguez",
+      "email": "maria.rodriguez@email.com",
+      "pointsLevel": "Bronze",
+      "accountRestrictions": {
+        "hasDebt": false,
+        "isBlocked": true,
+        "blockReason": "Suspicious activity detected"
+      }
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "userId": 1,
+      "date": "2024-01-15T10:30:00Z",
+      "product": "Wireless Headphones",
+      "quantity": 1,
+      "totalPrice": 129.99
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "date": "2024-01-20T14:15:00Z",
+      "product": "Smart Watch",
+      "quantity": 1,
+      "totalPrice": 299.99
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "date": "2024-02-05T09:45:00Z",
+      "product": "Bluetooth Speaker",
+      "quantity": 2,
+      "totalPrice": 89.98
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "date": "2024-02-18T16:20:00Z",
+      "product": "USB-C Hub",
+      "quantity": 1,
+      "totalPrice": 49.99
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "date": "2024-03-01T11:00:00Z",
+      "product": "Mechanical Keyboard",
+      "quantity": 1,
+      "totalPrice": 159.99
+    },
+    {
+      "id": 6,
+      "userId": 2,
+      "date": "2024-01-10T08:30:00Z",
+      "product": "Laptop Stand",
+      "quantity": 1,
+      "totalPrice": 39.99
+    },
+    {
+      "id": 7,
+      "userId": 2,
+      "date": "2024-01-25T13:45:00Z",
+      "product": "External SSD 1TB",
+      "quantity": 1,
+      "totalPrice": 179.99
+    },
+    {
+      "id": 8,
+      "userId": 2,
+      "date": "2024-02-10T10:15:00Z",
+      "product": "Monitor 27\"",
+      "quantity": 1,
+      "totalPrice": 349.99
+    },
+    {
+      "id": 9,
+      "userId": 2,
+      "date": "2024-02-28T15:30:00Z",
+      "product": "Webcam HD",
+      "quantity": 2,
+      "totalPrice": 119.98
+    },
+    {
+      "id": 10,
+      "userId": 2,
+      "date": "2024-03-10T12:00:00Z",
+      "product": "Gaming Mouse",
+      "quantity": 1,
+      "totalPrice": 59.99
+    },
+    {
+      "id": 11,
+      "userId": 3,
+      "date": "2024-01-05T09:00:00Z",
+      "product": "Tablet 10\"",
+      "quantity": 1,
+      "totalPrice": 249.99
+    },
+    {
+      "id": 12,
+      "userId": 3,
+      "date": "2024-01-30T11:30:00Z",
+      "product": "Phone Case",
+      "quantity": 3,
+      "totalPrice": 44.97
+    },
+    {
+      "id": 13,
+      "userId": 3,
+      "date": "2024-02-15T14:00:00Z",
+      "product": "Portable Charger",
+      "quantity": 2,
+      "totalPrice": 59.98
+    },
+    {
+      "id": 14,
+      "userId": 3,
+      "date": "2024-03-05T10:45:00Z",
+      "product": "Screen Protector",
+      "quantity": 5,
+      "totalPrice": 24.95
+    },
+    {
+      "id": 15,
+      "userId": 3,
+      "date": "2024-03-20T16:30:00Z",
+      "product": "Car Mount",
+      "quantity": 1,
+      "totalPrice": 19.99
+    },
+    {
+      "id": 16,
+      "userId": 1,
+      "date": "2024-03-25T09:15:00Z",
+      "product": "Desk Lamp",
+      "quantity": 1,
+      "totalPrice": 34.99
+    },
+    {
+      "id": 17,
+      "userId": 2,
+      "date": "2024-03-28T13:20:00Z",
+      "product": "Cable Organizer",
+      "quantity": 2,
+      "totalPrice": 15.98
+    },
+    {
+      "id": 18,
+      "userId": 3,
+      "date": "2024-04-01T11:00:00Z",
+      "product": "Wireless Charger",
+      "quantity": 1,
+      "totalPrice": 29.99
+    }
+  ],
+  "purchaseDetails": [
+    {
+      "purchaseId": 1,
+      "sellerName": "TechStore Official",
+      "paymentStatus": "Approved",
+      "shippingStatus": "Delivered"
+    },
+    {
+      "purchaseId": 2,
+      "sellerName": "GadgetWorld",
+      "paymentStatus": "Approved",
+      "shippingStatus": "Delivered"
+    },
+    {
+      "purchaseId": 3,
+      "sellerName": "AudioPro",
+      "paymentStatus": "Approved",
+      "shippingStatus": "Delivered"
+    },
+    {
+      "purchaseId": 4,
+      "sellerName": "AccessoriesHub",
+      "paymentStatus": "Approved",
+      "shippingStatus": "In Transit"
+    },
+    {
+      "purchaseId": 5,
+      "sellerName": "KeyboardsDirect",
+      "paymentStatus": "Pending",
+      "shippingStatus": "Preparing"
+    },
+    {
+      "purchaseId": 6,
+      "sellerName": "ErgoShop",
+      "paymentStatus": "Approved",
+      "shippingStatus": "Delivered"
+    },
+    {
+      "purchaseId": 7,
+      "sellerName": "StorageKing",
+      "paymentStatus": "Approved",
+      "shippingStatus": "Delivered"
+    },
+    {
+      "purchaseId": 8,
+      "sellerName": "DisplayExperts",
+      "paymentStatus": "Approved",
+      "shippingStatus": "In Transit"
+    },
+    {
+      "purchaseId": 9,
+      "sellerName": "CamTech",
+      "paymentStatus": "Rejected",
+      "shippingStatus": "Preparing"
+    },
+    {
+      "purchaseId": 10,
+      "sellerName": "GamingGear",
+      "paymentStatus": "Approved",
+      "shippingStatus": "Delivered"
+    },
+    {
+      "purchaseId": 11,
+      "sellerName": "TabletMart",
+      "paymentStatus": "Approved",
+      "shippingStatus": "Delivered"
+    },
+    {
+      "purchaseId": 12,
+      "sellerName": "CaseCorner",
+      "paymentStatus": "Approved",
+      "shippingStatus": "Delivered"
+    },
+    {
+      "purchaseId": 13,
+      "sellerName": "PowerBankCo",
+      "paymentStatus": "Pending",
+      "shippingStatus": "Preparing"
+    },
+    {
+      "purchaseId": 14,
+      "sellerName": "ScreenGuard",
+      "paymentStatus": "Approved",
+      "shippingStatus": "In Transit"
+    },
+    {
+      "purchaseId": 15,
+      "sellerName": "AutoAccessories",
+      "paymentStatus": "Approved",
+      "shippingStatus": "Delivered"
+    },
+    {
+      "purchaseId": 16,
+      "sellerName": "HomeDecor",
+      "paymentStatus": "Approved",
+      "shippingStatus": "In Transit"
+    },
+    {
+      "purchaseId": 17,
+      "sellerName": "CableMaster",
+      "paymentStatus": "Approved",
+      "shippingStatus": "Delivered"
+    },
+    {
+      "purchaseId": 18,
+      "sellerName": "ChargeFast",
+      "paymentStatus": "Pending",
+      "shippingStatus": "Preparing"
+    }
+  ]
+}
