@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Ana García",
       "email": "ana.garcia@email.com",
-      "pointsLevel": "Gold",
+      "pointsLevel": "Oro",
       "accountRestrictions": {
         "hasDebt": false,
         "isBlocked": false,
@@ -15,7 +15,7 @@
       "id": 2,
       "name": "Carlos López",
       "email": "carlos.lopez@email.com",
-      "pointsLevel": "Silver",
+      "pointsLevel": "Plata",
       "accountRestrictions": {
         "hasDebt": true,
         "isBlocked": false,
@@ -26,11 +26,11 @@
       "id": 3,
       "name": "María Rodríguez",
       "email": "maria.rodriguez@email.com",
-      "pointsLevel": "Bronze",
+      "pointsLevel": "Bronce",
       "accountRestrictions": {
         "hasDebt": false,
         "isBlocked": true,
-        "blockReason": "Suspicious activity detected"
+        "blockReason": "Actividad sospechosa detectada"
       }
     }
   ],
@@ -184,110 +184,110 @@
     {
       "purchaseId": 1,
       "sellerName": "TechStore Official",
-      "paymentStatus": "Approved",
-      "shippingStatus": "Delivered"
+      "paymentStatus": "Aprobado",
+      "shippingStatus": "Entregado"
     },
     {
       "purchaseId": 2,
       "sellerName": "GadgetWorld",
-      "paymentStatus": "Approved",
-      "shippingStatus": "Delivered"
+      "paymentStatus": "Aprobado",
+      "shippingStatus": "Entregado"
     },
     {
       "purchaseId": 3,
       "sellerName": "AudioPro",
-      "paymentStatus": "Approved",
-      "shippingStatus": "Delivered"
+      "paymentStatus": "Aprobado",
+      "shippingStatus": "Entregado"
     },
     {
       "purchaseId": 4,
       "sellerName": "AccessoriesHub",
-      "paymentStatus": "Approved",
-      "shippingStatus": "In Transit"
+      "paymentStatus": "Aprobado",
+      "shippingStatus": "En camino"
     },
     {
       "purchaseId": 5,
       "sellerName": "KeyboardsDirect",
-      "paymentStatus": "Pending",
-      "shippingStatus": "Preparing"
+      "paymentStatus": "Pendiente",
+      "shippingStatus": "En preparación"
     },
     {
       "purchaseId": 6,
       "sellerName": "ErgoShop",
-      "paymentStatus": "Approved",
-      "shippingStatus": "Delivered"
+      "paymentStatus": "Aprobado",
+      "shippingStatus": "Entregado"
     },
     {
       "purchaseId": 7,
       "sellerName": "StorageKing",
-      "paymentStatus": "Approved",
-      "shippingStatus": "Delivered"
+      "paymentStatus": "Aprobado",
+      "shippingStatus": "Entregado"
     },
     {
       "purchaseId": 8,
       "sellerName": "DisplayExperts",
-      "paymentStatus": "Approved",
-      "shippingStatus": "In Transit"
+      "paymentStatus": "Aprobado",
+      "shippingStatus": "En camino"
     },
     {
       "purchaseId": 9,
       "sellerName": "CamTech",
-      "paymentStatus": "Rejected",
-      "shippingStatus": "Preparing"
+      "paymentStatus": "Rechazado",
+      "shippingStatus": "En preparación"
     },
     {
       "purchaseId": 10,
       "sellerName": "GamingGear",
-      "paymentStatus": "Approved",
-      "shippingStatus": "Delivered"
+      "paymentStatus": "Aprobado",
+      "shippingStatus": "Entregado"
     },
     {
       "purchaseId": 11,
       "sellerName": "TabletMart",
-      "paymentStatus": "Approved",
-      "shippingStatus": "Delivered"
+      "paymentStatus": "Aprobado",
+      "shippingStatus": "Entregado"
     },
     {
       "purchaseId": 12,
       "sellerName": "CaseCorner",
-      "paymentStatus": "Approved",
-      "shippingStatus": "Delivered"
+      "paymentStatus": "Aprobado",
+      "shippingStatus": "Entregado"
     },
     {
       "purchaseId": 13,
       "sellerName": "PowerBankCo",
-      "paymentStatus": "Pending",
-      "shippingStatus": "Preparing"
+      "paymentStatus": "Pendiente",
+      "shippingStatus": "En preparación"
     },
     {
       "purchaseId": 14,
       "sellerName": "ScreenGuard",
-      "paymentStatus": "Approved",
-      "shippingStatus": "In Transit"
+      "paymentStatus": "Aprobado",
+      "shippingStatus": "En camino"
     },
     {
       "purchaseId": 15,
       "sellerName": "AutoAccessories",
-      "paymentStatus": "Approved",
-      "shippingStatus": "Delivered"
+      "paymentStatus": "Aprobado",
+      "shippingStatus": "Entregado"
     },
     {
       "purchaseId": 16,
       "sellerName": "HomeDecor",
-      "paymentStatus": "Approved",
-      "shippingStatus": "In Transit"
+      "paymentStatus": "Aprobado",
+      "shippingStatus": "En camino"
     },
     {
       "purchaseId": 17,
       "sellerName": "CableMaster",
-      "paymentStatus": "Approved",
-      "shippingStatus": "Delivered"
+      "paymentStatus": "Aprobado",
+      "shippingStatus": "Entregado"
     },
     {
       "purchaseId": 18,
       "sellerName": "ChargeFast",
-      "paymentStatus": "Pending",
-      "shippingStatus": "Preparing"
+      "paymentStatus": "Pendiente",
+      "shippingStatus": "En preparación"
     }
   ]
 }

@@ -8,20 +8,28 @@ class UserService {
     }
     return {
       id: user.id,
-      name: user.name,
+      nombre: user.name,
       email: user.email,
-      pointsLevel: user.pointsLevel,
-      accountRestrictions: user.accountRestrictions
+      nivelPuntos: user.pointsLevel,
+      restriccionesCuenta: {
+        tieneDeuda: user.accountRestrictions.hasDebt,
+        estaBloqueado: user.accountRestrictions.isBlocked,
+        motivoBloqueo: user.accountRestrictions.blockReason
+      }
     };
   }
 
   getAllUsers() {
     return data.users.map(user => ({
       id: user.id,
-      name: user.name,
+      nombre: user.name,
       email: user.email,
-      pointsLevel: user.pointsLevel,
-      accountRestrictions: user.accountRestrictions
+      nivelPuntos: user.pointsLevel,
+      restriccionesCuenta: {
+        tieneDeuda: user.accountRestrictions.hasDebt,
+        estaBloqueado: user.accountRestrictions.isBlocked,
+        motivoBloqueo: user.accountRestrictions.blockReason
+      }
     }));
   }
 }

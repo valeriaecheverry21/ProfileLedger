@@ -14,11 +14,11 @@ class PurchaseService {
 
     return {
       data: paginatedPurchases.map(p => ({
-        id: p.id,
-        date: p.date,
-        product: p.product,
-        quantity: p.quantity,
-        totalPrice: p.totalPrice
+        id_compra: p.id,
+        fecha: p.date,
+        producto: p.product,
+        cantidad: p.quantity,
+        precio_total: p.totalPrice
       })),
       pagination: {
         currentPage: page,

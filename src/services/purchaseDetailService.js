@@ -7,10 +7,10 @@ class PurchaseDetailService {
       return null;
     }
     return {
-      purchaseId: detail.purchaseId,
-      sellerName: detail.sellerName,
-      paymentStatus: detail.paymentStatus,
-      shippingStatus: detail.shippingStatus
+      id_compra: detail.purchaseId,
+      nombreVendedor: detail.sellerName,
+      estadoPago: detail.paymentStatus,
+      estadoEnvio: detail.shippingStatus
     };
   }
 }
